@@ -1,0 +1,75 @@
+<!doctype html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <title>Escola Dominguinho - Curso de Informática para Internet</title> 
+  <link rel="stylesheet" href="style.css"> 
+</head> 
+<body> 
+  <header class="topbar"> 
+    <h1>Escola Dominguinho</h1> 
+    <p>Curso Técnico em Informática para Internet (2 anos / 4 semestres)</p> 
+  </header> 
+  <main> 
+    <section class="semestres"> 
+      <h2>Grade Curricular</h2> 
+ 
+      <div class="semestre"> 
+        <h3>1º Semestre</h3> 
+        <ul> 
+          <li>Arquitetura de Computadores</li> 
+          <li>Lógica de Programação</li> 
+          <li>Fundamentos UI E UX</li> 
+          <li>Modelagem de software</li> 
+        </ul> 
+      </div> 
+      <div class="semestre"> 
+        <h3>2º Semestre</h3> 
+        <ul> 
+          <li>Programação Front END</li> 
+          <li>Banco de Dados (SQL)</li> 
+          <li>Introdução e Consumo a APIs</li> 
+           
+        </ul> 
+      </div> 
+      <div class="semestre"> 
+        <h3>3º Semestre</h3> 
+        <ul> 
+          <li>Programação Back-end (PHP/Node.js)</li> 
+          <li>APIs e Web Services</li> 
+          <li>Gestão de Projetos</li> 
+          <li>Ética e Cidadania Digital</li> 
+        </ul> 
+      </div> 
+      <div class="semestre"> 
+        <h3>4º Semestre</h3> 
+        <ul> 
+          <li>Desenvolvimento Full Stack</li> 
+          <li>Hospedagem e Publicação de Sites</li> 
+          <li>Segurança da Informação</li> 
+          <li>Trabalho de Conclusão de Curso (TCC)</li> 
+        </ul> 
+      </div> 
+    </section> 
+    <section class="contato"> 
+      <h2>Entre em Contato</h2> 
+      <form id="contatoForm"> 
+        <label>Nome:<br> 
+          <input type="text" id="nome" required> 
+        </label> 
+        <label>Email:<br> 
+          <input type="email" id="email" required> 
+        </label> 
+        <label>Mensagem:<br> 
+          <textarea id="mensagem" rows="4" required></textarea> 
+        </label> 
+        <button type="submit">Enviar</button> 
+      </form> 
+      <p id="msg" class="msg"></p> 
+    </section> 
+  </main> 
+<script src="script.js"></script> 
+</body> 
+</html> 
+ 
